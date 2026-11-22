@@ -20,13 +20,7 @@ import pierisRapae from "./assets/pieris-rapae.png";
 import vanessaGonerilla from "./assets/vanessa-gonerilla.png";
 import vanessaItea from "./assets/vanessa-itea.png";
 import zizinaOtis from "./assets/zizina-otis.png";
-import catopsiliaPomona from "./assets/catopsilia-pomona.png";
-import hypolimnasBolina from "./assets/hypolimnas-bolina.png";
-import junoniaVillida from "./assets/junonia-villida.png";
 import zizinaOxleyi from "./assets/zizina-oxleyi.png";
-import danausPetilia from "./assets/danaus-petilia.png";
-import tirumalaHamata from "./assets/tirumala-hamata.png";
-import vanessaKershawi from "./assets/vanessa-kershawi.png";
 
 const butterflies = [
   { id: 1, commonName: "Monarch", scientificName: "Danaus plexippus", image: danausPlexippus, status: "Self-introduced", hostPlant: "Milkweeds: swan plant (*Gomphocarpus* spp.), tropical milkweed (*Asclepias curassavica*)", distribution: "North Island and South Island (south to about Otago) of New Zealand, norhtern South America through to southern Canada, parts of the Pacific Islands, Australia, Portugal, Phillipines, Morocco" },
@@ -47,12 +41,6 @@ const butterflies = [
   { id: 17, commonName: "Yellow admiral", scientificName: "Vanessa itea", image: vanessaItea, status: "Native", hostPlant: "Nettles (*Urtica incisa*, *U. urens*), *Parietaria* spp.", distribution: "Up to about 1000 m" },
   { id: 18, commonName: "Common blue", scientificName: "Zizina otis", image: zizinaOtis, status: "Native", hostPlant: "Clovers (*Trifolium* spp.), *Lotus* spp., *Medicago* spp.", distribution: "Up to 1000 m" },
   { id: 19, commonName: "Southern blue", scientificName: "Zizina oxleyi", image: zizinaOxleyi, status: "Endemic", hostPlant: "Low-growing native brooms (*Carmichaelia* spp.) and other low-growing Fabaceae", distribution: "Eastern side of the South Island" },
-  { id: 20, commonName: "Lemon migrant", scientificName: "Catopsilia pomona", image: catopsiliaPomona, status: "Migrant", hostPlant: null, distribution: null },
-  { id: 21, commonName: "Lesser wanderer", scientificName: "Danaus petilia", image: danausPetilia, status: "Migrant", hostPlant: null, distribution: null },
-  { id: 22, commonName: "Blue moon", scientificName: "Hypolimnas bolina", image: hypolimnasBolina, status: "Migrant", hostPlant: null, distribution: null },
-  { id: 23, commonName: "Meadow argus", scientificName: "Junonia villida", image: junoniaVillida, status: "Migrant", hostPlant: null, distribution: null },
-  { id: 25, commonName: "Blue tiger", scientificName: "Tirumala hamata", image: tirumalaHamata, status: "Migrant", hostPlant: null, distribution: null },
-  { id: 26, commonName: "Australian painted lady", scientificName: "Vanessa kershawi", image: vanessaKershawi, status: "Migrant", hostPlant: " Arctotis, Chrysanthemum (family Asteraceae) and Scotch thistle (Cirsium vulgare), capeweed (Cryptostemma) and cudweed (Gnaphalium)", distribution: "Australia and New Zealand" },
 ];
 
 const getGenus = (butterfly) => butterfly.scientificName.split(" ")[0];
