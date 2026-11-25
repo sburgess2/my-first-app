@@ -2,8 +2,9 @@ const Card = ({ children }) => {
   return (
     <div
       style={{
-        width: 300,
-        height: 350,
+        width: "100%",
+        boxSizing: "border-box",
+        height: 500,
         border: "1px solid #988671",
         borderRadius: 8,
         padding: 16,
