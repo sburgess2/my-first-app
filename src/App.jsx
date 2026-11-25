@@ -128,7 +128,7 @@ function App() {
       </Card>
 ))}
     </div>
-    <p style={sourceStyle}>Data source: iNaturalist, nzButterfly.info, Moths and Butterflies of New Zealand Trust</p>
+    <p style={sourceStyle}>Data source: iNaturalist, Moths and Butterflies of New Zealand Trust</p>
     </div>
   );
 }
